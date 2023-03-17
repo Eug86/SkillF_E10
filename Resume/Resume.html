@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8">
+	<title>РЕЗЮМЕ</title>
+<link rel="stylesheet" href="resume.css">
+ <link href='https://fonts.googleapis.com/css?family=Comfortaa|Autour+One|Source+Code+Pro' rel='stylesheet'>
+</head>
+<body>
+ <div class="content">
+  <h2>Поташев Евгений Александрович</h2>
+   <p> <img src="img/me.jpg" alt="html" width="168" height="200" class="leftimg"></p> 
+
+<h3>Сведения о себе</h3>
+
+<button type="button" class="collapsible">Дата рождения:</button>
+<div class="content-person">
+  <p>14.04.1982</p>
+</div>
+<button type="button" class="collapsible">Адрес проживания:</button>
+<div class="content-person">
+  <p>ХМАО, г. Сургут, Островского 21</p>
+</div>
+<button type="button" class="collapsible">Телефон:</button>
+<div class="content-person">
+  <p>8-922-417-59-04, 8-912-087-20-61</p>
+</div>
+<button type="button" class="collapsible">Эл.почта:</button>
+<div class="content-person">
+  <p><a href="mailto:potashev_e@mail.ru"><i>potashev_e@mail.ru</i></a></p>
+</div>
+<button type="button" class="collapsible">Семейное положение:</button>
+<div class="content-person">
+  <p>Женат, трое детей 2006 г.р., 2008 г.р. и 2018г.р.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<h3>Образование</h3>
+<div class="grid-wrapper">
+   		 <div class="grid-item item-1"><p class="left">1999-2004 г.</p></div>
+   		 <div class="grid-item item-2"><p class="left">ВЫСШЕЕ<br>
+<span class="company-text">Тюменский Государственный Нефтегазовый Университет (ТюмГНГУ)</span>:
+<ul class="change"> 
+<li>факультет – Автоматизация и Управление;</li>
+<li>форма обучения – дневная;</li>
+<li>специальность - Автоматизация производственных процессов и производств;</li> 
+<li>квалификация – Инженер</li>
+</ul>
+</p>
+</div>
+   		 <div class="grid-item item-3"><p class="left">2005-2023 г.</p></div>
+   		 <div class="grid-item item-4"><p class="left"></p>Курсы:<br> 
+<ul class="change"> 
+<li>«MetsoDNA Engineering course». Учебный центр Metso Automation Inc. Тампере, Финляндия. Июнь 2006г.</li>
+<li>«DeltaV Advanced Configuration» и «DeltaV Advanced Control» . Москва, Emerson.  Октябрь 2006г.</li>
+<li>Всевозможные курсы по работе с системой «ValmetDNA»(Info, Networks, Profibus, Info Upgrade, HIMA,…), Тампере, Финляндия. Январь 2015 – Февраль 2020г.
+</li>
+<li>SkillFactory - незаконченное  <img src="img/smile.jpg" alt="html" width="40" height="40">
+</li>
+</ul>
+</p>
+</div>
+</div>
+<h3>Опыт работы</h3>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>27.07.2022</h2>
+      <p class="left"><span class="company-text">ПАО «Сургутнефтегаз», ПУ «СургутАСУнефть»</span><br>
+<ul class="change"> 
+<li>должность – инженер-технолог 1 категории</li>
+<li>выполняемые функции:<ul class="change"> 
+<li>Эксплуатация, техническое обслуживание и сопровождение комплекса программно-технических средств САУ УКПГ (установка компримирования и подготовки газа);</li>
+<li>Сопровождение программного обеспечения системы: изменение параметров и уставок технологического процесса; изменение мнемосхем отображения информации;</li> 
+изменение количества каналов измерения, реконфигурация системы, изменение алгоритмов работы системы, изменения с учетом опыта эксплуатации установленного 
+программного обеспечения;</li>
+<li>Оперативное устранение отказов аппаратных средств и программного обеспечения.</li>
+</ul>
+</ul>
+      АСУТП: Metso DNA (Metso Automation Inc.)</p></div>
+    </div>
+  </div>
+<div class="timeline">
+  <div class="container right">
+    <div class="content">
+      <h2>01.01.2020</h2>
+      <p><p class="left"><span class="company-text">АО «Валмет»</span><br>
+<ul class="change"> 
+<li>должность – руководитель проектов</li>
+<li>выполняемые функции:<ul class="change"> 
+<li>Управление по реализации сервисных проектов от стадии подготовки технической части перед заключением договоров до полного завершения проекта;</li>
+<li>Составление отчетов, контроль бюджета проектов, контроль за подготовкой заказных спецификаций, заказы оборудования, контроль за работой проектной команды;</li>
+<li>Взаимодействия с Заказчиками, субподрядчиками, бухгалтерией.</li>
+</ul>
+</ul>
+</p>
+    </div>
+  </div>
+</div>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>12.01.2015</h2>
+      <p class="left"><span class="company-text">АО «Валмет»</span><br>
+<ul class="change"> 
+<li>должность – сервисный инженер (с 2019 года старший сервисный инженер)</li>
+<li>выполняемые функции:<ul class="change"> 
+<li>Сервисное обслуживание и поддержка АСУТП всех объектов, реализованных на базе ValmetDNA;</li>
+<li>Сервисные визиты на производственные объекты (СИБУР, Роснефть) для детальной диагностики АСУТП, подготовка отчетов;</li>
+<li>Поддержка Заказчика в режиме 24/7 по телефону;</li>
+<li>Разработка проектной и рабочей документации для реализации проектов по расширению, модернизации АСУТП.</li>
+</ul>
+</ul>
+      АСУТП: ValmetDNA (Valmet Automation Inc.)</p>
+    </div>
+  </div>
+</div>
+<div class="timeline">
+  <div class="container right">
+    <div class="content">
+      <h2>01.09.2004</h2>
+      <p class="left"><span class="company-text">ПАО «Сургутнефтегаз», ПУ «СургутАСУнефть»</span><br>
+<ul class="change"> 
+<li>должность – инженер-технолог 3 категории (с 01.10.2006 - инженер-технолог 2 категории) </li>
+<li>выполняемые функции:<ul class="change"> 
+<li>Эксплуатация, техническое обслуживание и сопровождение комплекса программно-технических средств САУ ГТЭС (газотурбинные электростанции), 
+САУ УКПГ (установка компримирования и подготовки газа)</li>
+<li>Сопровождение программного обеспечения системы: изменение параметров и уставок технологического процесса; изменение мнемосхем отображения информации;</li> 
+изменение количества каналов измерения, реконфигурация системы, изменение алгоритмов работы системы, изменения с учетом опыта эксплуатации установленного 
+программного обеспечения;</li>
+<li>Оперативное устранение отказов аппаратных средств и программного обеспечения.</li>
+</ul>
+</ul>
+      АСУТП: MetsoDNA (Metso Automation Inc.), DeltaV (Emerson)</p>
+    </div>
+  </div>
+</div>
+ 
+<h3>Дополнительно</h3>
+
+<div class="grid-wrapper">
+		<div class="grid-item item-5"><p class="left">Профессиональные знания и навыки:</p></div>
+		<div class="grid-item item-6"><p class="left">
+<ul class="change"> 
+<li>Знание ГОСТов по автоматизации;</li>
+<li>Знание технологических процессов подготовки и переработки газа, получения электроэнергии;</li>
+<li>Знание промышленных протоколов связи Modbus, Profibus, OPC, HART;</li>
+<li>Windows: рабочие станции Windows 98/2000/NT/ME/XP/7/10, серверы Windows NT, 2003/2008/2012/2016/2019; работа с прикладными офисными программами;</li>
+<li>Иностранные языки: английский (Pre-intermediate, технический).</li>
+<li>Высокая работоспособность, коммуникабельность, самостоятельность, ответственность.</li>
+<li>Наличие водительского удостоверения: категория В (стаж вождения 23 года), наличие личного автомобиля.</li>
+<li>Готовность к командировкам.</li>
+</ul>
+</p></div>
+</div>
+
+</body>
+</div>
+</html>
